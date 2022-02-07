@@ -84,3 +84,42 @@ img{
 		}
 	}
 }
+#info{
+	margin-top: 30px;
+	.card {
+		box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+		max-width: 300px;
+		margin: auto;
+		text-align: center;
+		img{
+			margin: 10px 0;
+			width: 80%;
+			border-radius: 5px;
+		}
+		.container {
+			position: relative;
+			text-align: center;
+			color: white;
+		}
+		.title {
+			position: absolute;
+			bottom: 20px;
+			left: 15%;
+			font-weight: bold;
+	 	}
+		h4{
+			font-family: 'Open Sans', sans-serif;
+			font-size: 20px;
+			font-weight: 800;
+			margin: 0;
+			color: $color-subtitulos;
+		}
+		p{
+			font-family: 'Open Sans', sans-serif;
+			font-size: 20px;
+			font-weight: 400;
+			margin: 20px 0;
+			color: $color-subtitulos;
+		}
+	}	
+}
