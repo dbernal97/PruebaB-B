@@ -306,3 +306,113 @@ footer{
 		}
 	}
 }
+
+//Diseño para laptops y computadores de escritorio
+@media only screen and (min-width: 900px){
+	
+	.navigation{
+		display: flex;
+		width: 95%;
+		margin-left: 4%;
+		#logo{
+			font-size: 50px;
+			margin: 0;
+			padding: 0;
+			width: 40%;
+		}
+		ul{
+			margin-top: 20px;
+			li{
+				a{
+					margin-left: 40px;	
+					&:hover{
+						color: rgb(0, 0, 0);
+						background-color: rgb(146, 146, 146);
+						border-radius: 10px;
+					}
+				}
+			}
+		}
+	}
+	.main{
+		width: 85%;
+		margin: 20px 5%;
+		h1{
+			text-align: left;
+			font-size: 45px;
+		}
+		p{
+			font-weight: 600;
+			color: rgb(82, 82, 82);
+			margin-top: 60px;
+		}
+		a{
+			margin: 30px 0 0 25%;
+			.btn{
+				width: 80%;
+				font-size: medium;
+				transition: ease-out 0.4s;
+				&:hover{
+					box-shadow: inset 400px 0 0 0 $color-titulo;
+					border: 1px solid $color-titulo;
+					cursor: pointer;
+					color: white;
+				}
+			}
+		}
+	}
+	#info{
+		width: 95%;
+		margin: 0 1%;
+
+		.card{
+			.container{
+				img{
+					width: 90%;
+					height: 200px;
+				}
+			}
+			&:hover{
+					@keyframes example {
+					0%   {border-left: 2px solid #ffffff;}
+					25%  {border-left: 3px solid #ffe6e6;}
+					50%  {border-left: 4px solid #ff8080;}
+					100% {border-left: 5px solid #ff0000;}
+				}
+				border-top-left-radius: 10px;
+				border-bottom-left-radius: 10px;
+				animation-name: example;
+				animation-duration: 0.25s;
+				border-left: 8px solid red;
+				box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)
+			}
+		}
+	}
+	#about{
+		p{
+			width: 90%;
+			margin-left: 5%;
+		}
+		.slider{
+			width: 40%;
+			border-radius: 10px;
+		}
+		a{
+			button{
+				transition: ease-out 0.4s;
+				&:hover{
+					box-shadow: inset 400px 0 0 0 $color-titulo;
+					border: 1px solid $color-titulo;
+					cursor: pointer;
+					color: white;
+				}
+			}
+		}
+	}
+	footer{
+		width: 100%;
+		margin: 20px 0 0 0;
+		padding-left: 0;
+		float: left;
+	}
+}
