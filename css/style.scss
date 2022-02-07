@@ -1,0 +1,18 @@
+//------------------------------------------------
+// Diseño para movil (mobile first)
+
+//Variables
+$color-fondo: rgb(209, 209, 209);
+$color-titulo: rgb(226, 96, 57);
+$color-subtitulos: rgb(51, 51, 51);
+$color-btn: rgb(0, 139, 219);
+
+body{
+	background-color: $color-fondo;
+	max-width: 100%;
+	padding: 0%;
+}
+
+img{
+	width: 100%;
+}
